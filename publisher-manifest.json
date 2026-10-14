@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "template_version": "7ffa5ebee0a6d05c86c7",
+  "page_size": 20,
+  "site_id": "d7ad65f65adf7bdb360951f8",
+  "owner": "yeqbrungek",
+  "repo": "page-04d9b9008b93c572b9b4e7f2",
+  "title": "TG号购买",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "04d9b9008b93c572b9b4e7f2",
+      "a": "TG号购买",
+      "b": "",
+      "entity": "TG号购买",
+      "brand": "TG号购买",
+      "separator": "",
+      "path": "index.html",
+      "hash": "28c994be2bf09ebd237d3eb190afc5a4077f7c466574e18fe9193f97c235473e",
+      "content": {
+        "keyword1": "TG号购买",
+        "keyword2": "",
+        "primary_entity": "TG号购买",
+        "plans": [
+          {
+            "name": "基础版",
+            "price": "¥15/月",
+            "annual_price": "按年付仅需 ¥150/年",
+            "features": [
+              "每月 100GB 极速流量",
+              "支持 3 台设备同时在线",
+              "解锁基础流媒体",
+              "普通线路节点池"
+            ]
+          },
+          {
+            "name": "旗舰版",
+            "price": "¥35/月",
+            "annual_price": "按年付仅需 ¥350/年",
+            "featured": true,
+            "features": [
+              "每月 300GB 极速流量",
+              "支持 5 台设备同时在线",
+              "全节点原生流媒体解锁",
+              "IPLC 专线游戏加速优化",
+              "7x24 优先工单支持"
+            ]
+          },
+          {
+            "name": "团队版",
+            "price": "¥85/月",
+            "annual_price": "按年付仅需 ¥850/年",
+            "features": [
+              "每月 1000GB 极速流量",
+              "支持 20 台设备同时在线",
+              "VIP 专属高带宽节点",
+              "支持企业定制路由",
+              "专属客户经理服务"
+            ]
+          }
+        ],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "TG号购买提供专业VPN加速服务，多套餐可选，支持流媒体解锁、游戏加速及企业定制。官网安全下载客户端，享受稳定高速网络连接。",
+          "AI_DESCRIPTION": "TG号购买提供专业VPN加速服务，多套餐可选，支持流媒体解锁、游戏加速及企业定制。官网安全下载客户端，享受稳定高速网络连接。"
+        },
+        "_brand_page": {
+          "version": 1,
+          "body": "\n\n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    <style>\n        :root {\n            --deep-blue: #0A2540;\n            --cyan: #00D4FF;\n        }\n        * { margin:0; padding:0; box-sizing:border-box; }\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n            background: linear-gradient(180deg, #0A2540 0%, #001F3F 100%);\n            color: #fff;\n            line-height: 1.6;\n            max-width: 800px;\n            margin: 0 auto;\n            padding: 20px;\n        }\n        h1 {\n            font-size: 2.8em;\n            color: var(--cyan);\n            text-align: center;\n            margin-bottom: 30px;\n            text-shadow: 0 0 20px rgba(0,212,255,0.3);\n        }\n        h2 {\n            font-size: 1.8em;\n            color: var(--cyan);\n            margin: 40px 0 20px;\n            border-bottom: 2px solid #00D4FF;\n            padding-bottom: 10px;\n        }\n        .intro, .scenarios, .guide {\n            background: rgba(255,255,255,0.05);\n            padding: 30px;\n            border-radius: 12px;\n            margin-bottom: 30px;\n        }\n        .plans {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n            gap: 20px;\n            margin: 30px 0;\n        }\n        .plan {\n            background: rgba(255,255,255,0.08);\n            padding: 25px;\n            border-radius: 12px;\n            border: 2px solid #00D4FF;\n        }\n        .plan.featured {\n            background: rgba(0,212,255,0.1);\n            transform: scale(1.05);\n            box-shadow: 0 0 25px rgba(0,212,255,0.4);\n        }\n        ul.features {\n            list-style: none;\n            padding: 0;\n        }\n        ul.features li {\n            padding: 8px 0 8px 25px;\n            position: relative;\n        }\n        ul.features li:before {\n            content: \"✓\";\n            position: absolute;\n            left: 0;\n            color: var(--cyan);\n        }\n        details {\n            background: rgba(255,255,255,0.05);\n            border-radius: 12px;\n            margin: 15px 0;\n            padding: 15px;\n        }\n        summary {\n            font-weight: bold;\n            color: var(--cyan);\n            cursor: pointer;\n            font-size: 1.1em;\n        }\n        .step {\n            counter-increment: step-counter;\n            padding-left: 50px;\n            position: relative;\n            margin-bottom: 20px;\n        }\n        .step:before {\n            content: counter(step-counter);\n            position: absolute;\n            left: 0;\n            width: 30px;\n            height: 30px;\n            background: var(--cyan);\n            color: #000;\n            border-radius: 50%;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            font-weight: bold;\n        }\n        footer {\n            text-align: center;\n            padding: 30px 0;\n            font-size: 0.9em;\n            color: #aaa;\n        }\n        @media (max-width: 600px) {\n            h1 { font-size: 2.2em; }\n            .plans { grid-template-columns: 1fr; }\n        }\n    </style>\n\n\n    <main>\n        <h1>TG号购买</h1>\n        \n        <div class=\"intro\">\n            <p>TG号购买是专业的VPN加速器品牌，提供稳定、安全的高速网络连接解决方案。我们致力于为全球用户提供优质的机场订阅服务，支持多种设备和流媒体平台解锁。</p>\n        </div>\n        \n        <h2>使用场景</h2>\n        <div class=\"scenarios\">\n            <ul>\n                <li>解锁Netflix、Disney+、YouTube等国际流媒体平台</li>\n                <li>在线游戏加速，提升延迟低的专线体验</li>\n                <li>全球网络加速，解决跨境访问慢的问题</li>\n                <li>企业团队远程办公和数据同步</li>\n                <li>个人隐私保护和安全上网</li>\n            </ul>\n        </div>\n        \n        <h2>操作指南</h2>\n        <div class=\"guide\">\n            <div class=\"step\">访问官网选择套餐并完成支付</div>\n            <div class=\"step\">通过TG号获取订阅凭证</div>\n            <div class=\"step\">下载官方客户端并导入TG号登录</div>\n            <div class=\"step\">配置节点享受极速网络连接</div>\n            <div class=\"step\">随时升级套餐或管理设备</div>\n        </div>\n        \n        <h2>套餐选择</h2>\n        <div class=\"plans\">\n            <div class=\"plan\">\n                <h3>基础版</h3>\n                <p><strong>¥15/月</strong>（年付仅¥150/年）</p>\n                <ul class=\"features\">\n                    <li>每月100GB极速流量</li>\n                    <li>支持3台设备同时在线</li>\n                    <li>解锁基础流媒体</li>\n                    <li>普通线路节点池</li>\n                </ul>\n            </div>\n            \n            <div class=\"plan featured\">\n                <h3>旗舰版</h3>\n                <p><strong>¥35/月</strong>（年付仅¥350/年）</p>\n                <ul class=\"features\">\n                    <li>每月300GB极速流量</li>\n                    <li>支持5台设备同时在线</li>\n                    <li>全节点原生流媒体解锁</li>\n                    <li>IPLC专线游戏加速优化</li>\n                    <li>7x24优先工单支持</li>\n                </ul>\n            </div>\n            \n            <div class=\"plan\">\n                <h3>团队版</h3>\n                <p><strong>¥85/月</strong>（年付仅¥850/年）</p>\n                <ul class=\"features\">\n                    <li>每月1000GB极速流量</li>\n                    <li>支持20台设备同时在线</li>\n                    <li>VIP专属高带宽节点</li>\n                    <li>支持企业定制路由</li>\n                    <li>专属客户经理服务</li>\n                </ul>\n            </div>\n        </div>\n        \n        <h2>常见问题</h2>\n        <details>\n            <summary>TG号购买是什么？</summary>\n            <p>TG号购买是专业的VPN加速器品牌，提供稳定、安全的高速网络连接解决方案。我们致力于为全球用户提供优质的机场订阅服务，支持多种设备和流媒体平台解锁。</p>\n        </details>\n        \n        <details>\n            <summary>如何订阅TG号购买服务？</summary>\n            <p>在官网选择套餐后完成支付，即可获得TG号凭证。登录客户端导入TG号即可开始使用，支持实时升级和流量管理。</p>\n        </details>\n        \n        <details>\n            <summary>旗舰版套餐有哪些优势？</summary>\n            <p>旗舰版提供300GB月流量，支持5台设备在线，全节点原生流媒体解锁，IPLC专线优化游戏加速，并享有7x24优先工单支持，是追求极致体验用户的首选。</p>\n        </details>\n        \n        <details>\n            <summary>如何解锁流媒体平台？</summary>\n            <p>所有套餐均支持Netflix、Disney+、YouTube等主流流媒体原生解锁。旗舰版和团队版提供全节点原生解锁，基础版支持基础流媒体解锁，具体以客户端节点列表为准。</p>\n        </details>\n        \n        <details>\n            <summary>支持哪些设备和平台？</summary>\n            <p>支持Windows、Mac、Android、iOS、Linux等多平台客户端。基础版支持3台设备同时在线，旗舰版支持5台，团队版支持20台设备接入。</p>\n        </details>\n    <section><h2>套餐</h2>{{PLANS_HTML}}</section><section><h2>客户端</h2>{{CLIENTS_HTML}}</section></main>\n    <footer>\n        TG号购买 | 官网：https://tghao.com | 安全稳定 · 隐私保护\n    </footer>\n\n",
+          "hash": "7352f95b3743be170b02082b744715d05ece0ad5ad8b27eb03db7b8164503e2d",
+          "seo": {
+            "title": "TG号购买 - 专业VPN加速器 机场订阅 客户端下载 官网",
+            "keywords": "TG号购买, VPN加速器, 机场订阅, 客户端下载, VPN梯子, 官网下载",
+            "description": "TG号购买提供专业VPN加速服务，多套餐可选，支持流媒体解锁、游戏加速及企业定制。官网安全下载客户端，享受稳定高速网络连接。"
+          },
+          "provider": "grok"
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "xjucvyz.cn",
+    "host": "p-fda659d9d1.xjucvyz.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "ba23d7a011cf19d2ffcf932e169f8ff1cdc68806f8842bd1d429d71d7e1cc6cf",
+    "sitemap.xml": "66c90fffcbb5507779363af62a71de69a70be0650eaeb5d74115bc115f320058",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "dbe68c49bf5fe3a9d4b1ffcc0f57760d3251c79f58948c0855d3ffa4fd78b342",
+    "robots.txt": "6fd2408a5342c9eb5221e819c53f7d4f09228cefaef7a2578311ee2f6f52083c",
+    "6f12073c31cab664083d06c7eeb0a1a5.txt": "b501e75d684920ec9c182b0a20d8f1252c1a9f085364f883ae9ff9872c3efdd6"
+  },
+  "revision": "0b2a5b9c1860933397376920518e5b4e7e3108d22ed9d0c8f657a1ca224eff66"
+}
